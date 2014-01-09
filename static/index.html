@@ -3,23 +3,33 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>HCI Project Portfolio</title>
+	<title>My Portfolio</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>David Jiang</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">My Portfolio</a>
+		</div>
+	</div>
+	<div class="jumbotron">
+      <div class="container">
+      	<BR>
+        <h1>David Jiang</h1>
+        <h3>Project Porfolio</h3>
+       	<p>David Jiang is a sophomore majoring in Computer Science at Stanford University. David has experience in front-end web development and is interested in the education technology sector.</p>
 
-	<!-- p means paragraph -->
-
-	<p>David Jiang is a sophomore majoring in Computer Science at Stanford University. David has experience in front-end web development and is interested in the education technology sector.</p>
-	<h4>Projects</h4>
-	<ol>
-		<li>Waiting in line</li>
-		<li>Group Project!</li>
-		<li>etc</li>
-		<li>...</li>
-	</ol>
+      </div>
+    </div>
+    <div class="container">
+	<h2>Projects</h2>
+		<ul id="projectList">
+			<li><a href="#"><figure><img src="image_4.png" height="200px" width="auto"/></a><figcaption><h3><small><center>Waiting in Line</center></small></h3></figcaption></figure></li>
+			<li><a href="#"><figure><img src="eggsandwich.jpg" height="200px" width="auto"/></a><figcaption><h3><small><center>Food.ly</center></small></h3></figcaption></figure></li>
+			<li><a href="#"><figure><img src="scart.png" height="200px" width="auto"/></a><figcaption><h3><small><center>shopKart</center></small></h3></figcaption></figure></li>
+		</ul>
+	</div>
 </body>
 </html>
